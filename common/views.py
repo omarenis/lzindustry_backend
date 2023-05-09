@@ -67,9 +67,12 @@ class ViewSet(ModelViewSet):
         for i in self.fields:
             if self.fields[i].get('unique') is True:
                 try:
-                    filter = {i: data[i]}
-                    self.service.repository.model.objects.get(**filter)
-                    return Response(data={'message': f'{i} must be unique to each {self.service.repository.model.__name__}'}, status=HTTP_400_BAD_REQUEST)
+                    _filter = {i: data[i]}
+                    self.service.repository.model.objects.get(**_filter)
+                    return Response(
+                        data={'message': f'{i} must be unique to each {self.service.repository.model.__name__}'},
+                        status=HTTP_400_BAD_REQUEST
+                    )
                 except self.service.repository.model.DoesNotExist:
                     pass
         _object = self.service.create(data)

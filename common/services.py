@@ -37,3 +37,6 @@ class Service(object):
                 filter_params[f'{i}__contains'] = data[i]
             filter_params[i] = data[i]
         return self.repository.filter_by(data=filter_params)
+
+    def find_one_by(self, params: dict):
+        return self.repository.find_one_by(params)

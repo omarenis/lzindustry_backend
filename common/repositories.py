@@ -34,3 +34,6 @@ class Repository(object):
 
     def filter_by(self, data: dict):
         return self.model.objects.filter(**data)
+
+    def find_one_by(self, params: dict):
+        return self.model.objects.get(**params)

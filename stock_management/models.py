@@ -5,8 +5,8 @@ from rest_framework.serializers import ModelSerializer, ImageField as ImageField
 
 class Item(Model):
     promo = ForeignKey(to='Promo', on_delete=SET_NULL, null=True)
-    store = ForeignKey(to='Store', null=False)
-    product = ForeignKey(to='Product', null=False)
+    store = ForeignKey(to='store_management.Store', null=False, on_delete=CASCADE)
+    product = ForeignKey(to='Product', null=False, on_delete=CASCADE)
     price = FloatField(null=False)
     tva = FloatField(null=False, default=0.19)
     current_quantity = FloatField(null=False, default=1)

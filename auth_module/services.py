@@ -5,7 +5,7 @@ from django.db import transaction
 
 class ProfileService(Service):
 
-    def __init__(self, repository: Repository=User):
+    def __init__(self, repository: Repository = Repository(model=User)):
         super().__init__(repository, fields={
             'first_name': {'type': 'string', 'required': True},
             'last_name': {'type': 'string', 'required': True},
@@ -24,3 +24,8 @@ class ProfileService(Service):
             user.save()
             profile.save()
         return user
+
+
+class UserPermissionService(Service):
+    def __init__(self, repository: Repository, fields: dict):
+        super().__init__(repository, fields)

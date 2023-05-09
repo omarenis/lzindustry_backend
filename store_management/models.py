@@ -13,6 +13,6 @@ class Store(Model):
     manager = ForeignKey(to='auth_module.Profile', on_delete=SET_NULL, null=True)
     name = TextField(null=False)
     number_products = FloatField(default=0)
-    localisation = ForeignKey(to='Localisation')
+    localisation = ForeignKey(to='Localisation', null=True, on_delete=SET_NULL)
     number_tags = FloatField(null=False, default=0)
     address = TextField(null=False)
