@@ -1,6 +1,6 @@
 from common.repositories import Repository
 from common.services import Service
-from tag_management.models import Device, GateWay
+from tag_management.models import Device, GateWay, TagTemplate
 
 DEVICE_FIELDS = {
     'product': {'type': 'foreign_key', 'required': True},
@@ -16,7 +16,7 @@ DEVICE_FIELDS = {
 }
 
 
-TAG_TEMPLATE = {
+TAG_TEMPLATE_FIELDS = {
     'image': {'type': 'file', 'required': True},
     'number-tags': {'type': 'int', 'required': False}
 }
@@ -42,3 +42,8 @@ class GateWayService(Service):
 
     def __init__(self):
         super().__init__(repository=Repository(model=GateWay), fields=GATEWAY_FIELDS)
+
+
+class TagTemplateService(Service):
+    def __init__(self):
+        super().__init__(repository=Repository(model=TagTemplate), fields=TAG_TEMPLATE_FIELDS)

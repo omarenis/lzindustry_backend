@@ -3,17 +3,9 @@ from django.db.models import Model, CharField, FloatField, BigIntegerField, Text
 from rest_framework.serializers import ModelSerializer, ImageField as ImageFieldSerializer
 
 
-class Item(Model):
-    promo = ForeignKey(to='Promo', on_delete=SET_NULL, null=True)
-    store = ForeignKey(to='store_management.Store', null=False, on_delete=CASCADE)
-    product = ForeignKey(to='Product', null=False, on_delete=CASCADE)
-    price = FloatField(null=False)
-    tva = FloatField(null=False, default=0.19)
-    current_quantity = FloatField(null=False, default=1)
-
-
 # Create your models here.
 class Product(Model):
+    brand = ForeignKey(to='Brand', on_delete=CASCADE, null=False)
     admin = ForeignKey(to='auth_module.Profile', on_delete=SET_NULL, null=True)
     image = ImageField(upload_to='images/products', null=False)
     category = ForeignKey(to='Category', on_delete=SET_NULL, null=True)
@@ -77,6 +69,7 @@ class PromoSerializer(ModelSerializer):
 
 
 class ProductSerializer(ModelSerializer):
+    brand = BrandSerializer()
     category = CategorySerializer(read_only=True)
     promo = PromoSerializer(read_only=True)
 

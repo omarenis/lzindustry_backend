@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbf41da5-dccd-449e-9f2b-16fff64d03d3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/tag_management/services.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth_module/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/auth_module/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth_module/services.py" beforeDir="false" afterPath="$PROJECT_DIR$/auth_module/services.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth_module/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/auth_module/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/repositories.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/repositories.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/services.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/services.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stock_management/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/stock_management/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store_management/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/store_management/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tag_management/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/tag_management/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag_management/services.py" beforeDir="false" afterPath="$PROJECT_DIR$/tag_management/services.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,23 +34,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/ubuntu/Documents/freelance_projects/lzindustry/backend&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "/home/ubuntu/Documents/hopitalproject/backend",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -116,6 +107,7 @@
       <workItem from="1683418537404" duration="3815000" />
       <workItem from="1683493602012" duration="2153000" />
       <workItem from="1683574698551" duration="18000" />
+      <workItem from="1683669741049" duration="1297000" />
     </task>
     <servers />
   </component>
