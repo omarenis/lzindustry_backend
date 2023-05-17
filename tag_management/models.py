@@ -1,6 +1,8 @@
 from django.db.models import Model, FileField, FloatField, TextField, ImageField, BigIntegerField, ForeignKey, \
     SET_NULL, CharField, BooleanField, CASCADE
 
+from rest_framework.serializers import ModelSerializer
+
 
 class TagTemplate(Model):
     image = ImageField(null=False)
@@ -9,7 +11,7 @@ class TagTemplate(Model):
 
 class Device(Model):
     product = ForeignKey(to='stock_management.Product', on_delete=SET_NULL, null=True)
-    promo = ForeignKey(to='Promo', on_delete=SET_NULL, null=True)
+    promo = ForeignKey(to='stock_management.Promo', on_delete=SET_NULL, null=True)
     qr_code = FileField(upload_to='qr_codes')
     battery = FloatField()
     mac_address = TextField()
@@ -34,3 +36,21 @@ class GateWay(Model):
     model = TextField(null=False)
     wifi_firmware_version = CharField(max_length=255)
     bluetooth_firmware_version = CharField(max_length=255)
+
+
+class DeviceSerializer(ModelSerializer):
+    class Meta:
+        model = Device
+        fields = '__all__'
+
+
+class GateWaySerializer(ModelSerializer):
+    class Meta:
+        model = GateWay
+        fields = '__all__'
+
+
+class TagTemplateSerializer(ModelSerializer):
+    class Meta:
+        model = TagTemplate
+        fields = '__all__'

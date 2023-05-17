@@ -1,19 +1,7 @@
 
-D
-auth_module/views.py,5/1/51adbe817d9adeed0b657f9d1f51540aec6f5c0a
-H
-tag_management/models.py,1/2/1204bd5357d02ae469a44d131343f74b94effcb7
-E
-auth_module/models.py,1/a/1a1b9c1cd20e92033586640f036b53d59e4466c9
 G
 auth_module/services.py,a/9/a9796ce208fcd2853957504c106d119b7d26b957
-J
-store_management/models.py,0/2/02f6baf44c14539d8631e002e4546dbb48c7f62c
-B
-common/services.py,1/3/13442ff2c318f6c4daec6494e860f32f8de076cf
 F
 common/repositories.py,0/b/0bf8f17c16d32aa550fc5bcd9e35d381eef009b3
-J
-tag_management/services.py,1/7/1716cb9fc9b625c157a76b3fbceec5ad02d2b91a
-J
-stock_management/models.py,6/2/62361466e69bcb03c64af6c56afd53b0a28aa892
+H
+tag_management/models.py,1/2/1204bd5357d02ae469a44d131343f74b94effcb7

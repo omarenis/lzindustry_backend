@@ -18,7 +18,7 @@ DEVICE_FIELDS = {
 
 TAG_TEMPLATE_FIELDS = {
     'image': {'type': 'file', 'required': True},
-    'number-tags': {'type': 'int', 'required': False}
+    'number_tags': {'type': 'int', 'required': False}
 }
 
 GATEWAY_FIELDS = {
