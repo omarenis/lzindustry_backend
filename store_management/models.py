@@ -1,4 +1,4 @@
-from django.db.models import Model, TextField, CharField, ImageField, FloatField, ForeignKey, SET_NULL
+from django.db.models import Model, TextField, CharField, ImageField, FloatField, ForeignKey, SET_NULL, BooleanField
 
 
 # Create your models here.
@@ -10,6 +10,8 @@ class Localisation(Model):
 
 
 class Store(Model):
+    image = ImageField(upload_to='stores')
+    is_active = BooleanField(null=False, default=True)
     manager = ForeignKey(to='auth_module.Profile', on_delete=SET_NULL, null=True)
     name = TextField(null=False)
     number_products = FloatField(default=0)
