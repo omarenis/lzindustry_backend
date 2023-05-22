@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbf41da5-dccd-449e-9f2b-16fff64d03d3" name="Changes" comment="done">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lzindustry.mdj" beforeDir="false" afterPath="$PROJECT_DIR$/lzindustry.mdj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store_management/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/store_management/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tag_management/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/tag_management/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +114,10 @@
       <workItem from="1684217647705" duration="71000" />
       <workItem from="1684263665393" duration="1146000" />
       <workItem from="1684271161661" duration="4409000" />
-      <workItem from="1684305516311" duration="2855000" />
+      <workItem from="1684305516311" duration="4048000" />
+      <workItem from="1684677863694" duration="24000" />
+      <workItem from="1684692190205" duration="180000" />
+      <workItem from="1684703218412" duration="594000" />
     </task>
     <task id="LOCAL-00001" summary="done">
       <created>1683699742386</created>
