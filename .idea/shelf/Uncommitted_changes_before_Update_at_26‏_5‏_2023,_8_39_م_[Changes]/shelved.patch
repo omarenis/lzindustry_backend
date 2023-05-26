@@ -1,0 +1,42 @@
+Index: .idea/sonarlint/securityhotspotstore/index.pb
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\nG\n\u0017auth_module/services.py\u0012,a/9/a9796ce208fcd2853957504c106d119b7d26b957\nF\n\u0016common/repositories.py\u0012,0/b/0bf8f17c16d32aa550fc5bcd9e35d381eef009b3\nB\n\u0012common/services.py\u0012,1/3/13442ff2c318f6c4daec6494e860f32f8de076cf\nE\n\u0015auth_module/models.py\u0012,1/a/1a1b9c1cd20e92033586640f036b53d59e4466c9\n>\n\u000Elzindustry.mdj\u0012,9/b/9b02e569e75f90df298f6416b448c80d1998c921\nJ\n\u001Astore_management/models.py\u0012,0/2/02f6baf44c14539d8631e002e4546dbb48c7f62c\nI\n\u0019store_management/views.py\u0012,0/e/0ef6ae7ca8d9643c371395376011c071df104d24\nJ\n\u001Astock_management/models.py\u0012,6/2/62361466e69bcb03c64af6c56afd53b0a28aa892\n?\n\u000Fcommon/views.py\u0012,a/2/a2027c4c3af278934dafdb4a641e3f65e648e9d1\nJ\n\u001Atag_management/services.py\u0012,1/7/1716cb9fc9b625c157a76b3fbceec5ad02d2b91a\nG\n\u0017tag_management/tests.py\u0012,f/0/f03287cc10af06610725f030e24512f83e1db999\nI\n\u0019stock_management/views.py\u0012,3/f/3f8e2abb50a95ecb7fa85ebb904b61b8c2f39003\nG\n\u0017tag_management/views.py\u0012,f/f/ffb7f80392177e418febaadc42ac2ad357b5bb5b\nD\n\u0014auth_module/views.py\u0012,5/1/51adbe817d9adeed0b657f9d1f51540aec6f5c0a\nH\n\u0018tag_management/models.py\u0012,1/2/1204bd5357d02ae469a44d131343f74b94effcb7
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/sonarlint/securityhotspotstore/index.pb b/.idea/sonarlint/securityhotspotstore/index.pb
+--- a/.idea/sonarlint/securityhotspotstore/index.pb	(revision 30ccc5f267cb588f3c6c5bcd51cdfd93d9cc082a)
++++ b/.idea/sonarlint/securityhotspotstore/index.pb	(date 1685129944870)
+@@ -1,10 +1,6 @@
+ 
+ G
+ auth_module/services.py,a/9/a9796ce208fcd2853957504c106d119b7d26b957
+-F
+-common/repositories.py,0/b/0bf8f17c16d32aa550fc5bcd9e35d381eef009b3
+-B
+-common/services.py,1/3/13442ff2c318f6c4daec6494e860f32f8de076cf
+ E
+ auth_module/models.py,1/a/1a1b9c1cd20e92033586640f036b53d59e4466c9
+ >
+Index: .idea/sonarlint/issuestore/index.pb
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\nG\n\u0017auth_module/services.py\u0012,a/9/a9796ce208fcd2853957504c106d119b7d26b957\nF\n\u0016common/repositories.py\u0012,0/b/0bf8f17c16d32aa550fc5bcd9e35d381eef009b3\nB\n\u0012common/services.py\u0012,1/3/13442ff2c318f6c4daec6494e860f32f8de076cf\nE\n\u0015auth_module/models.py\u0012,1/a/1a1b9c1cd20e92033586640f036b53d59e4466c9\n>\n\u000Elzindustry.mdj\u0012,9/b/9b02e569e75f90df298f6416b448c80d1998c921\nJ\n\u001Astore_management/models.py\u0012,0/2/02f6baf44c14539d8631e002e4546dbb48c7f62c\nI\n\u0019store_management/views.py\u0012,0/e/0ef6ae7ca8d9643c371395376011c071df104d24\nJ\n\u001Astock_management/models.py\u0012,6/2/62361466e69bcb03c64af6c56afd53b0a28aa892\n?\n\u000Fcommon/views.py\u0012,a/2/a2027c4c3af278934dafdb4a641e3f65e648e9d1\nG\n\u0017tag_management/tests.py\u0012,f/0/f03287cc10af06610725f030e24512f83e1db999\nI\n\u0019stock_management/views.py\u0012,3/f/3f8e2abb50a95ecb7fa85ebb904b61b8c2f39003\nD\n\u0014auth_module/views.py\u0012,5/1/51adbe817d9adeed0b657f9d1f51540aec6f5c0a\nH\n\u0018tag_management/models.py\u0012,1/2/1204bd5357d02ae469a44d131343f74b94effcb7\nG\n\u0017tag_management/views.py\u0012,f/f/ffb7f80392177e418febaadc42ac2ad357b5bb5b\nJ\n\u001Atag_management/services.py\u0012,1/7/1716cb9fc9b625c157a76b3fbceec5ad02d2b91a
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/sonarlint/issuestore/index.pb b/.idea/sonarlint/issuestore/index.pb
+--- a/.idea/sonarlint/issuestore/index.pb	(revision 30ccc5f267cb588f3c6c5bcd51cdfd93d9cc082a)
++++ b/.idea/sonarlint/issuestore/index.pb	(date 1685129944866)
+@@ -1,10 +1,6 @@
+ 
+ G
+ auth_module/services.py,a/9/a9796ce208fcd2853957504c106d119b7d26b957
+-F
+-common/repositories.py,0/b/0bf8f17c16d32aa550fc5bcd9e35d381eef009b3
+-B
+-common/services.py,1/3/13442ff2c318f6c4daec6494e860f32f8de076cf
+ E
+ auth_module/models.py,1/a/1a1b9c1cd20e92033586640f036b53d59e4466c9
+ >
