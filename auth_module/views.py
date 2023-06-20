@@ -1,6 +1,6 @@
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
-from rest_framework.status import HTTP_400_BAD_REQUEST, HTTP_404_NOT_FOUND
+from rest_framework.status import HTTP_400_BAD_REQUEST, HTTP_404_NOT_FOUND, HTTP_200_OK
 from auth_module.models import UserSerializer, User
 from auth_module.services import ProfileService
 from common.views import ViewSet
@@ -27,8 +27,15 @@ def login(request, *args, **kwargs):
         user = user_service.find_one_by({'username': request.data.get('username')})
         if user.check_password(request.data.get('password')):
             token = RefreshToken.for_user(user)
-            return Response(data={
-
-            })
+            data = {
+                'userId': user.id,
+                'refresh': str(token),
+                'access': str(token.access_token),
+                'is_superuser': user.is_superuser
+            }
+            if user.is_superuser is False and user.profile is not None:
+                data['has_system_role'] = user.profile.has_system_role
+                data['has_store_role'] = user.profile.has_store_role
+            return Response(data=data, status=HTTP_200_OK)
     except User.DoesNotExist:
         return Response(data={'message': 'user not found'}, status=HTTP_404_NOT_FOUND)

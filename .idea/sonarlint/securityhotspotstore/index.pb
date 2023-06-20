@@ -5,8 +5,6 @@ B
 common/services.py,1/3/13442ff2c318f6c4daec6494e860f32f8de076cf
 >
 lzindustry.mdj,9/b/9b02e569e75f90df298f6416b448c80d1998c921
-L
-stock_management/services.py,9/f/9f865b87488f50a77d0620d5b589da8154522635
 I
 stock_management/tests.py,e/6/e647b661c076f7b25ced4c715ea9c9e135ceb1bc
 ?
@@ -21,13 +19,9 @@ C
 backend/urls.py,e/8/e86ee5a9c15adf9e0f1eef0379032fc6cd65bd41
 W
 'store_management/migrations/__init__.py,d/9/d9f78bacb09c43047c67d66f01f706245736ba3e
-G
-tag_management/tests.py,f/0/f03287cc10af06610725f030e24512f83e1db999
 C
 auth_module/apps.py,a/d/ad90dd7ea4aab818ed8e71c8bee169b4311c718a
 ?
 common/views.py,a/2/a2027c4c3af278934dafdb4a641e3f65e648e9d1
 I
 stock_management/views.py,3/f/3f8e2abb50a95ecb7fa85ebb904b61b8c2f39003
-H
-tag_management/models.py,1/2/1204bd5357d02ae469a44d131343f74b94effcb7

@@ -17,10 +17,10 @@ def binarize_image(filename):
 
 def image_array(width, height, color, filename):
     if color == 'white':
-        array_created = np.full((dimension[0], dimension[1], 3),
+        array_created = np.full((width, height),
                                 255, dtype=np.uint8)
     elif color == 'black':
-        array_created = np.zeros([dimensions[0], dimension[1], 3], dtype=np.uint8)
+        array_created = np.full((width, height), 0, dtype=np.uint8)
     else:
         array_created = np.zeros([0, 0, 3], dtype=np.uint8)
         array_created[:, :] = [255, 0, 0]
@@ -30,4 +30,4 @@ def image_array(width, height, color, filename):
 for dimension in dimensions:
     image_array(*dimension, color='black', filename=f'uploads/black_{dimension[0]}_{dimension[1]}.png')
     image_array(*dimension, color='white', filename=f'uploads/white_{dimension[0]}_{dimension[1]}.png')
-    image_array(*dimension, color='red', filename=f'uploads/red_{dimension[0]}_{dimension[1]}.png')
+    # image_array(*dimension, color='red', filename=f'uploads/red_{dimension[0]}_{dimension[1]}.png')
